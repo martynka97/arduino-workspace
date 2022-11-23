@@ -29,11 +29,11 @@ void setup() {
 void loop() {
   if (digitalRead(SW_UP) == HIGH) { // jeśli przycisk wciśnięty
 
-    analogWrite(LED2R, 200);
+    analogWrite(LED2R, 50);
   }
   else if ( digitalRead(SW_LEFT) == HIGH)
   {
-    analogWrite(LED2R, 50);
+    analogWrite(LED2R, 200);
   }
   else
   {
